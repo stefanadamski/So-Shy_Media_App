@@ -1,38 +1,103 @@
-.App {
+@import './components/Audio/audio.css';
+@import './components/StartPage/start.css';
+@import './components/Video/video.css';
+@import './components/Photo/photo.css';
+@import './components/Dashboard/Bubbles/bubbles.css';
+@import './components/Dashboard/Reviews/reviews.css';
+@import './components/Music/music.css';
+@import './components/Books/books.css';
+@import './components/Dashboard/dashboard.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Media styles*/
+a {
+  text-decoration: none;
+}
+
+.quote {
+  font-family: 'Sacramento', cursive;
   text-align: center;
+  font-size: 40px;
+  color: white;
+  opacity: 0.6;
+  margin: 10px;
+  font-weight: 200;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.review {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.review_button {
+  font-family: 'Signika', sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
+  background-color: hotpink;
+  border: 3px solid deeppink;
+  box-shadow: 0 0 18px deeppink;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  opacity: 0.5;
+}
+.review_button:hover {
+  background-color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.media_buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.media_button1, .media_button2, .media_button3, .media_button4, .media_button5, .media_button6, .media_button7 {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  border: 3px solid white;
+  box-shadow: 0 0 10px white;
+  border-radius: 50%;
+  margin: 20px;
+  opacity: 0.5;
+}
+.media_button1 {
+  background-image: url("./assets/microphone.svg");
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.media_button2 {
+  background-image: url("./assets/microphone-slash-solid.svg");
+}
+
+.media_button3 {
+  background-image: url("./assets/play-solid.svg");
+}
+.media_button4 {
+  background-image: url("./assets/video-solid.svg");
+}
+.media_button5 {
+  background-image: url("./assets/stop-solid.svg");
+}
+.media_button6 {
+  background-image: url("./assets/camera.svg");
+
+}
+.media_button7 {
+  background-image: url("./assets/arrow.svg");
 }

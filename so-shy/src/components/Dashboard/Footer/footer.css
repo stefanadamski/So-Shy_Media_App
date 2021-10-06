@@ -1,0 +1,22 @@
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-shadow: 0 0 5px white;
+    background: transparent;
+    width: 100%;
+}
+
+.footer_logo {
+    width: 200px;
+    height: 120px;
+    background-image: url("../../../assets/footer_logo.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.author {
+    text-decoration: none !important;
+}

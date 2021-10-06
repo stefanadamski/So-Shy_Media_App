@@ -1,0 +1,95 @@
+.start {
+    text-shadow: 0 0 1px black;
+    font-family: 'Sacramento', cursive;
+    opacity: 0.8;
+}
+
+.start-logo {
+    height: 55vmin;
+    pointer-events: none;
+}
+
+.start-header {
+    background: radial-gradient(pink 40%, hotpink);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.start-description {
+    font-family: 'Signika', sans-serif;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+.full_form {
+    font-family: 'Sacramento', cursive !important;
+    background: transparent;
+    font-size: 30px;
+    color: black;
+    padding: 20px;
+}
+
+@media screen and (max-width: 820px) {
+    form {
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+.full_form .input_style {
+    font-size: 20px;
+    font-family: 'Signika', sans-serif;
+    border: none;
+    border-bottom: 1px solid red;
+    opacity: 0.5;
+    background: transparent;
+    margin-left:15px;
+}
+
+::placeholder {
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+*:focus {
+    outline: none;
+}
+
+.button_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_button {
+    color: deeppink;
+    text-shadow: 0 0 5px hotpink;
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    margin: 20px;
+    background: transparent;
+    border: 2px solid white;
+    box-shadow: 0 0 30px white;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+.login_button:hover {
+    background-color: white;
+}
+
+.form_label {
+    font-family: 'Sacramento', cursive;
+}
+
+

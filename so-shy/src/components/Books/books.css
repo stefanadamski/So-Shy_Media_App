@@ -1,0 +1,41 @@
+.book_boxes {
+    font-family: 'Signika', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.books_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 0 0 1px black;
+    justify-content: flex-start;
+    margin: 10px;
+    padding: 10px;
+    width: 260px;
+    height: 500px;
+    opacity: 0.8;
+}
+
+.book1_image, .book2_image, .book3_image {
+    background-size: cover;
+    background-position: center;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    margin-bottom: 20px;
+}
+
+.book1_image {
+    background-image: url("../../assets/kidgetcoding.jpg");
+}
+.book2_image {
+    background-image: url("../../assets/harry.jpg");
+}
+.book3_image {
+    background-image: url("../../assets/fitkids.jpg");
+}

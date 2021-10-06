@@ -1,0 +1,65 @@
+.nav_container {
+    background: transparent;
+    padding: 20px;
+    margin: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dashboard_logo {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    color: black;
+    border: 2px solid deeppink;
+    box-shadow: 0 0 20px hotpink;
+    border-radius: 50%;
+    background: white;
+    opacity: 0.6;
+}
+
+.small_logo {
+    color: white;
+    text-shadow: 0 0 8px white;
+}
+
+.avatar_big {
+    width: 90px;
+    height: 90px;
+    background-image: url("../../../assets/profile.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid hotpink;
+    box-shadow: 0 0 30px hotpink;
+}
+
+.menu_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout_button {
+    color: hotpink;
+    text-shadow: 0 0 5px hotpink;
+    font-family: 'Sacramento', cursive;
+    font-size: 26px;
+    margin: 10px;
+    background: transparent;
+    border: 2px solid white;
+    box-shadow: 0 0 30px white;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+.logout_button:hover {
+    background-color: white;
+}

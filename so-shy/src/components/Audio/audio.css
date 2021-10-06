@@ -1,0 +1,21 @@
+.audio_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 80px;
+}
+
+.audio-react-recorder__canvas {
+    background-image: url("../../assets/waveform.jpg");
+    width: 290px;
+    height: 290px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    opacity:0.5;
+    border: 3px solid deeppink;
+    box-shadow: 0 0 50px hotpink;
+    margin: 10px;
+}
+

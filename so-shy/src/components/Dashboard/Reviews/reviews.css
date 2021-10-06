@@ -1,0 +1,49 @@
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.musicIcon, .booksIcon, .moviesIcon {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+
+
+.musicIcon {
+    background-image: url("../../../assets/music-solid.svg");
+}
+
+.booksIcon {
+    background-image: url("../../../assets/book.svg");
+}
+
+.moviesIcon {
+    background-image: url("../../../assets/film.svg");
+}
+
+.review_circle {
+    font-size: 12px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #d3d3;
+    border: 3px solid deeppink;
+    box-shadow: 0 0 18px deeppink;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: 15px;
+    opacity: 0.5;
+}
+
+.review_circle:hover {
+    box-shadow: 0 0 10px deeppink;
+    cursor: pointer;
+    background: white;
+}

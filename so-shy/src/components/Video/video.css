@@ -1,0 +1,22 @@
+.video_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video_player {
+    border: 5px solid hotpink;
+    box-shadow: 0 0 50px hotpink;
+    border-radius: 7%;
+    width: 420px;
+    height: 315px;
+
+}
+
+.video_quote {
+    font-size: 36px;
+    font-family: 'Sacramento', cursive;
+    color: white;
+    font-weight: 200;
+}

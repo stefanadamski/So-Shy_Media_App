@@ -1,0 +1,75 @@
+.main {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: slategray;
+    text-align: center;
+}
+
+.main_heading {
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    color: white;
+    opacity: 0.6;
+}
+
+.media_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+
+.circle {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #d3d3;
+    border: 3px solid hotpink;
+    box-shadow: 0 0 18px hotpink;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+}
+
+.circle:hover {
+    background-color: deeppink;
+    box-shadow: 0 0 30px deeppink;
+    cursor: pointer;
+}
+
+.circle_info {
+    font-size: 16px;
+    font-family: 'Signika', sans-serif;
+}
+
+.circle_icon1, .circle_icon2, .circle_icon3, .circle_icon4, .circle_icon5 {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+}
+.circle_icon1 {
+    background-image: url("../../../assets/arrow.svg");
+}
+.circle_icon2 {
+    background-image: url("../../../assets/microphone.svg");
+}
+.circle_icon3 {
+    background-image: url("../../../assets/video-solid.svg");
+}
+.circle_icon4 {
+    background-image: url("../../../assets/camera.svg");
+}
+.circle_icon5 {
+    background-image: url("../../../assets/addthis.svg");
+    border-radius: 50%;
+}
